@@ -9,13 +9,13 @@ double volume(int r){
 
     int main()
     {
-    	int rad1;
-    	float volsp;
+    	int radius;
+    	float vol;
 		cout << "\n\n Calculate the volume of a sphere :\n";
 		cout << "---------------------------------------\n";
-        cout<<" Input the radius of a sphere : ";
-    	cin>>rad1;
+        cout<<" Input the radius of ball : ";
+    	cin>>radius;
 
-        cout<<" The volume of a sphere is : "<< volume(rad1) << endl;
+        cout<<" The volume of ball is : "<< volume(radius) << endl;
         return 0;
     }
